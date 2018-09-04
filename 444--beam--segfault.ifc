@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION ((), '2;1');
-FILE_NAME ('443--segfault-beam.ifc (Edited by simplebim 7.0 SR4 - Evaluation)', '2018-08-10T18:26:04', ('ANONYMOUS USER'), ('ANONYMOUS ORGANISATION'), 'x', $, $);
+FILE_NAME ('444--beam--segfault.ifc (Edited by simplebim 7.0 SR4 - Evaluation)', '2018-08-10T18:26:04', ('ANONYMOUS USER'), ('ANONYMOUS ORGANISATION'), 'x', $, $);
 FILE_SCHEMA (('IFC2X3'));
 ENDSEC;
 DATA;
