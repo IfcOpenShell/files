@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (('ViewDefinition[CoordinationView_V2.0, QuantityTakeOffAddOnView]'), '2;1');
-FILE_NAME ('445--wrong-geometry--no-subtractions-on-wall.ifc (Edited by simplebim 7.0 SR4)', '2018-08-21T08:24:32', ('x'), ('Structural Designer'), 'IFC Database Version: Work', 'Tekla Structures Educational 2018 Service Pack 1, IFC Export Version: 4.0.0.0 May 18 2018', $);
+FILE_NAME ('445--wall--missing-subtractions.ifc (Edited by simplebim 7.0 SR4)', '2018-08-21T08:24:32', ('x'), ('Structural Designer'), 'IFC Database Version: Work', 'Tekla Structures Educational 2018 Service Pack 1, IFC Export Version: 4.0.0.0 May 18 2018', $);
 FILE_SCHEMA (('IFC2X3'));
 ENDSEC;
 DATA;
@@ -14,7 +14,7 @@ DATA;
 #7 = IFCBUILDING('1Njd48cG157uhKQQCv_QxG', #8, 'Undefined', $, '', #88, $, $, .ELEMENT., $, $, #13);
 #8 = IFCOWNERHISTORY(#9, #12, $, .NOCHANGE., $, $, $, 1534832671);
 #9 = IFCPERSONANDORGANIZATION(#10, #11, $);
-#10 = IFCPERSON('VASTERAS\\ela', 'Undefined', $, $, $, $, $, $);
+#10 = IFCPERSON('x', 'Undefined', $, $, $, $, $, $);
 #11 = IFCORGANIZATION($, 'Trimble Solutions Corporation', $, $, $);
 #12 = IFCAPPLICATION(#11, '2018 Service Pack 1', 'Tekla Structures', 'Multi material modeling');
 #13 = IFCPOSTALADDRESS($, $, $, $, ('PP. Adress'), $, $, $, $, $);
