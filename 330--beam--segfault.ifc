@@ -68,7 +68,7 @@ DATA;
 #61 = IFCBUILDING('2Pvz$8FzTBt8V3sv4nUrZI', #8, $, $, '', #188, $, $, .ELEMENT., $, $, #62);
 #62 = IFCPOSTALADDRESS($,$,$,$,$,$,$,$,$,$);
 #63 = IFCBUILDINGSTOREY('2Pvz$8FzTBt8V3sv7EXiH3', #8, '02', $, '', #190, $, '02', .ELEMENT., 64349.9999999977);
-#64 = IFCPROJECT($,$,$,$,$,$,$,$,$);
+#64 = IFCPROJECT($, #8, $, $, $, $, $, (#17, #65), #197);
 #65 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Annotation', 3, 1.E-2, #18, #20);
 #66 = IFCGEOMETRICREPRESENTATIONSUBCONTEXT($, 'Annotation', *, *, *, *, #65, 1.E-2, .PLAN_VIEW., $);
 #67 = IFCSITE('2Pvz$8FzTBt8V3sv4nUrZH', #8, 'Default', $, '', #185, $, $, .ELEMENT., (59, 54, 57, 601318), (10, 45, 0, 0), 6.93034962750971E-11, $, $);
