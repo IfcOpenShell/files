@@ -151,7 +151,7 @@ DATA;
 #341= IFCCARTESIANTRANSFORMATIONOPERATOR3D($,$,#340,1.,$);
 #342= IFCMAPPEDITEM(#285,#341);
 
-/* The air terminal occurence has a single port, corresponding to the port nested on the air terminal type. */
+/* The air terminal occurrence has a single port, corresponding to the port nested on the air terminal type. */
 #344= IFCCARTESIANPOINT((12.,12.,4.));
 #345= IFCAXIS2PLACEMENT3D(#344,$,$);
 #346= IFCLOCALPLACEMENT(#376,#345);
