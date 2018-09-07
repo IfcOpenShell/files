@@ -48,7 +48,7 @@ DATA;
 #22 = IFCCARTESIANPOINT((0., 0., 0.));
 #23 = IFCDIRECTION((0., 1.));
 
-/* shared coordinates - it is permissable to share common instances to reduce file size -------- */
+/* shared coordinates - it is permissible to share common instances to reduce file size -------- */
 #24 = IFCCARTESIANPOINT((0., 0., 0.));
 #25 = IFCDIRECTION((1., 0., 0.));
 #26 = IFCDIRECTION((0., 1., 0.));
@@ -66,7 +66,7 @@ DATA;
 /* each IFC data set containing elements in a building context has to include a building ------- */
 /* at absolute minimum (could have a site and stories as well) --------------------------------- */
 #34 = IFCBUILDING('0AqAhXVxvCy9m0OX1nxY1A', #2, 'Default Building', 'Description of Default Building', $, #35, $, $, .ELEMENT., $, $, #37);
-/* if the building is the uppermost spatial structure element it defines the absolut position -- */
+/* if the building is the uppermost spatial structure element it defines the absolute position -- */
 #35 = IFCLOCALPLACEMENT(#32, #36);
 /* no rotation - z and x axes set to '$' are therefore identical to "world coordinate system" -- */
 #36 = IFCAXIS2PLACEMENT3D(#24, $, $);

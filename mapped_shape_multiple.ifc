@@ -51,14 +51,14 @@ DATA;
 /* each IFC data set containing elements in a building context has to include a building ------- */
 /* at absolute minimum (could have a site and stories as well) --------------------------------- */
 #500= IFCBUILDING('2FCZDorxHDT8NI01kdXi8P',$,'Test Building',$,$,#511,$,$,.ELEMENT.,$,$,$);
-/* if the building is the uppermost spatial structure element it defines the absolut position -- */
+/* if the building is the uppermost spatial structure element it defines the absolute position -- */
 #511= IFCLOCALPLACEMENT($,#512);
 /* no rotation - z and x axes set to '$' are therefore identical to "world coordinate system" -- */ 
 #512= IFCAXIS2PLACEMENT3D(#901,$,$);
 /* if the building is the uppermost spatial structure element it is assigned to the project ---- */
 #519= IFCRELAGGREGATES('2YBqaV_8L15eWJ9DA1sGmT',$,$,$,#100,(#500));
 
-/* shared coordinates - it is permissable to share common instances to reduce file size -------- */
+/* shared coordinates - it is permissible to share common instances to reduce file size -------- */
 #901= IFCCARTESIANPOINT((0.,0.,0.));
 #902= IFCDIRECTION((1.,0.,0.));
 #903= IFCDIRECTION((0.,1.,0.));
@@ -83,7 +83,7 @@ DATA;
 /* proxy element shape representation ---------------------------------------------------------- */
 #1010= IFCPRODUCTDEFINITIONSHAPE($,$,(#1020));
 /* a single shape representation of type 'MappedRepresentation' is included -------------------- */
-/* it contains four mapped items, each refering to the same representation map ----------------- */
+/* it contains four mapped items, each referring to the same representation map ----------------- */
 #1020= IFCSHAPEREPRESENTATION(#202,'Body','MappedRepresentation',(#1021,#1031,#1041,#1051));
 /* Cartesian transformation of the mapped item ------------------------------------------------- */
 /* all with rotation by 45' in xy plane and non uniform scaling: x=0.5, y=0.5, z=1.0 ----------- */

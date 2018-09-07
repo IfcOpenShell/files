@@ -21,7 +21,7 @@ ENDSEC;
 
 DATA;
 #100= IFCBEAMTYPE('0juf4qyggSstrxA20Qwnsj',$,'IPE220','Beam type',$,$,$,$,$,.BEAM.);
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and profile to the beam type                       */
 #110= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20Q49sj',$,$,$,(#100),#111);
 #111= IFCMATERIALPROFILESET($,$,(#112),$);
@@ -32,7 +32,7 @@ DATA;
 
 
 #200= IFCBEAMTYPE('0juf4qyggSstrxA20Qdisj',$,'1/2IPE300','Beam type',$,$,$,$,$,.BEAM.);
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and profile to the beam type                       */
 #210= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20Q2fsj',$,$,$,(#200),#211);
 #211= IFCMATERIALPROFILESET($,$,(#212),$);
@@ -44,7 +44,7 @@ DATA;
 
 /* beam A-1 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 1 - bottom left                                          */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #1000= IFCBEAMSTANDARDCASE('0juf4qyggSI8rxA20Qwnsj',$,'A-1','IPE220','Beam',#1001,#1010,'A-1',$);
 #1001= IFCLOCALPLACEMENT(#100025,#1002);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -62,7 +62,7 @@ DATA;
 #1030= IFCAXIS2PLACEMENT3D(#1031,$,$);
 #1031= IFCCARTESIANPOINT((-55.0,110.0,0.));   /* defines cardinal point 1    */
 #1034= IFCDIRECTION((0.,0.,1.)); 
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #1040= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QfZsj',$,$,$,(#1000),#1041);
 #1041= IFCMATERIALPROFILESETUSAGE(#111,1,$);
@@ -75,7 +75,7 @@ DATA;
 
 /* beam A-2 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 2 - bottom center                                        */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #1100= IFCBEAMSTANDARDCASE('0juf4qyggSI8rxA20sznsj',$,'A-2','IPE220','Beam',#1101,#1110,'A-2',$);
 #1101= IFCLOCALPLACEMENT(#100025,#1102);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -93,7 +93,7 @@ DATA;
 #1130= IFCAXIS2PLACEMENT3D(#1131,$,$);
 #1131= IFCCARTESIANPOINT((0.,110.0,0.));      /* defines cardinal point 2    */
 #1134= IFCDIRECTION((0.,0.,1.)); 
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #1140= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QgAsj',$,$,$,(#1100),#1141);
 #1141= IFCMATERIALPROFILESETUSAGE(#111,2,$);
@@ -106,7 +106,7 @@ DATA;
 
 /* beam A-3 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 3 - bottom right                                         */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #1200= IFCBEAMSTANDARDCASE('0juf4qyggSI8s4A20sznsj',$,'A-3','IPE220','Beam',#1201,#1210,'A-3',$);
 #1201= IFCLOCALPLACEMENT(#100025,#1202);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -124,7 +124,7 @@ DATA;
 #1230= IFCAXIS2PLACEMENT3D(#1231,$,$);
 #1231= IFCCARTESIANPOINT((55.0,110.0,0.));    /* defines cardinal point 3    */
 #1234= IFCDIRECTION((0.,0.,1.)); 
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #1240= IFCRELASSOCIATESMATERIAL('3x0gFSPAr5puQ5WI22xYOm',$,$,$,(#1200),#1241);
 #1241= IFCMATERIALPROFILESETUSAGE(#111,3,$);
@@ -137,7 +137,7 @@ DATA;
 
 /* beam A-4 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 3 - bottom right                                         */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #1300= IFCBEAMSTANDARDCASE('0juf4qyggSI8s4A20sznw6',$,'A-4','IPE220','Beam',#1301,#1310,'A-4',$);
 #1301= IFCLOCALPLACEMENT(#100025,#1302);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -155,7 +155,7 @@ DATA;
 #1330= IFCAXIS2PLACEMENT3D(#1331,$,$);
 #1331= IFCCARTESIANPOINT((-55.0,0.,0.));       /* defines cardinal point 4   */
 #1334= IFCDIRECTION((0.,0.,1.)); 
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #1340= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QOHsj',$,$,$,(#1300),#1341);
 #1341= IFCMATERIALPROFILESETUSAGE(#111,4,$);
@@ -168,7 +168,7 @@ DATA;
 
 /* beam A-5 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 5 - mid-depth center                                     */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #1400= IFCBEAMSTANDARDCASE('0juf4qyggSI8rxA20Qwnab',$,'A-5','IPE220','Beam',#1401,#1410,'A-5',$);
 #1401= IFCLOCALPLACEMENT(#100025,#1402);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -186,7 +186,7 @@ DATA;
 #1430= IFCAXIS2PLACEMENT3D(#1431,$,$);
 #1431= IFCCARTESIANPOINT((0.,0.,0.));          /* defines cardinal point 5   */
 #1434= IFCDIRECTION((0.,0.,1.)); 
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #1440= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QRLsj',$,$,$,(#1400),#1441);
 #1441= IFCMATERIALPROFILESETUSAGE(#111,5,$);
@@ -199,7 +199,7 @@ DATA;
 
 /* beam A-6 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 6 - mid-depth right                                      */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #1500= IFCBEAMSTANDARDCASE('0juf4qyggSI8rxA20Qwng1',$,'A-6','IPE220','Beam',#1501,#1510,'A-6',$);
 #1501= IFCLOCALPLACEMENT(#100025,#1502);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -217,7 +217,7 @@ DATA;
 #1530= IFCAXIS2PLACEMENT3D(#1531,$,$);
 #1531= IFCCARTESIANPOINT((55.0,0.,0.));        /* defines cardinal point 6   */
 #1534= IFCDIRECTION((0.,0.,1.)); 
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #1540= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QMmsj',$,$,$,(#1500),#1541);
 #1541= IFCMATERIALPROFILESETUSAGE(#111,6,$);
@@ -230,7 +230,7 @@ DATA;
 
 /* beam A-7 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 7 - top left                                             */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #1600= IFCBEAMSTANDARDCASE('0juf4qyggSI8rxA20Qwn3s',$,'A-7','IPE220','Beam',#1601,#1610,'A-7',$);
 #1601= IFCLOCALPLACEMENT(#100025,#1602);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -248,7 +248,7 @@ DATA;
 #1630= IFCAXIS2PLACEMENT3D(#1631,$,$);
 #1631= IFCCARTESIANPOINT((-55.0,-110.0,0.));   /* defines cardinal point 7   */
 #1634= IFCDIRECTION((0.,0.,1.)); 
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #1640= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20Qh4sj',$,$,$,(#1600),#1641);
 #1641= IFCMATERIALPROFILESETUSAGE(#111,7,$);
@@ -261,7 +261,7 @@ DATA;
 
 /* beam A-8 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 8 - top center                                           */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #1700= IFCBEAMSTANDARDCASE('0juf4qyggSI8rxA20Qwnlq',$,'A-8','IPE220','Beam',#1701,#1710,'A-8',$);
 #1701= IFCLOCALPLACEMENT(#100025,#1702);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -279,7 +279,7 @@ DATA;
 #1730= IFCAXIS2PLACEMENT3D(#1731,$,$);
 #1731= IFCCARTESIANPOINT((0.,-110.0,0.));   /* defines cardinal point 7      */
 #1734= IFCDIRECTION((0.,0.,1.)); 
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #1740= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QwKsj',$,$,$,(#1700),#1741);
 #1741= IFCMATERIALPROFILESETUSAGE(#111,8,$);
@@ -292,7 +292,7 @@ DATA;
 
 /* beam A-9 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 9 - top right                                            */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #1800= IFCBEAMSTANDARDCASE('0juf4qyggSI8s4A20sznrt',$,'A-9','IPE220','Beam',#1801,#1810,'A-9',$);
 #1801= IFCLOCALPLACEMENT(#100025,#1802);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -310,7 +310,7 @@ DATA;
 #1830= IFCAXIS2PLACEMENT3D(#1831,$,$);
 #1831= IFCCARTESIANPOINT((55.0,-110.0,0.));    /* defines cardinal point 9   */
 #1834= IFCDIRECTION((0.,0.,1.)); 
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #1840= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QJksj',$,$,$,(#1800),#1841);
 #1841= IFCMATERIALPROFILESETUSAGE(#111,9,$);
@@ -324,7 +324,7 @@ DATA;
 
 /* beam B-1 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 1 - bottom left                                          */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #2000=IFCBEAMSTANDARDCASE('3QbcAsYoB7Hvx$4VHzijYi',$,'B-1','1/2IPE300','Beam',#2001,#2010,'B-1',$);
 #2001=IFCLOCALPLACEMENT(#100025,#2002);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -341,7 +341,7 @@ DATA;
 #2030=IFCAXIS2PLACEMENT3D(#2031,$,$);
 #2031=IFCCARTESIANPOINT((-75.0,75.0,0.));      /* defines cardinal point 1   */
 #2034=IFCDIRECTION((0.,0.,1.));
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #2040= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QbFsj',$,$,$,(#2000),#2041);
 #2041= IFCMATERIALPROFILESETUSAGE(#211,1,$);
@@ -354,7 +354,7 @@ DATA;
 
 /* beam B-2 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 2 - bottom center                                        */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #2100=IFCBEAMSTANDARDCASE('3Qb5gsYoB7Hvx$4VHzijYi',$,'B-2','1/2IPE300','Beam',#2101,#2110,'B-2',$);
 #2101=IFCLOCALPLACEMENT(#100025,#2102);
 /* set local placement so that the z-axis is co-linear to the beam axis ---- */
@@ -371,7 +371,7 @@ DATA;
 #2130=IFCAXIS2PLACEMENT3D(#2131,$,$);
 #2131=IFCCARTESIANPOINT((0.,75.0,0.));         /* defines cardinal point 2   */
 #2134=IFCDIRECTION((0.,0.,1.));
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #2140= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20Qqlsj',$,$,$,(#2100),#2141);
 #2141= IFCMATERIALPROFILESETUSAGE(#211,2,$);
@@ -384,7 +384,7 @@ DATA;
 
 /* beam B-3 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 3 - bottom right                                         */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #2200=IFCBEAMSTANDARDCASE('3QbcAsYsg7Hvx$4VHzijYi',$,'B-3','1/2IPE300','Beam',#2201,#2210,'B-3',$);
 #2201=IFCLOCALPLACEMENT(#100025,#2202);
 #2202=IFCAXIS2PLACEMENT3D(#2203,#2204,#2205);
@@ -399,7 +399,7 @@ DATA;
 #2230=IFCAXIS2PLACEMENT3D(#2231,$,$);
 #2231=IFCCARTESIANPOINT((75.0,75.0,0.));       /* defines cardinal point 3   */
 #2234=IFCDIRECTION((0.,0.,1.));
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #2240= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20Q7isj',$,$,$,(#2200),#2241);
 #2241= IFCMATERIALPROFILESETUSAGE(#211,3,$);
@@ -412,7 +412,7 @@ DATA;
 
 /* beam B-4 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 4 - mid-depth left                                       */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #2300=IFCBEAMSTANDARDCASE('3QbcAsYsg7Hvx$4VHzijGT',$,'B-4','1/2IPE300','Beam',#2301,#2310,'B-4',$);
 #2301=IFCLOCALPLACEMENT(#100025,#2302);
 #2302=IFCAXIS2PLACEMENT3D(#2303,#2304,#2305);
@@ -427,7 +427,7 @@ DATA;
 #2330=IFCAXIS2PLACEMENT3D(#2331,$,$);
 #2331=IFCCARTESIANPOINT((-75.0,0.,0.));        /* defines cardinal point 4   */
 #2334=IFCDIRECTION((0.,0.,1.));
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #2340= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20Q4nsj',$,$,$,(#2300),#2341);
 #2341= IFCMATERIALPROFILESETUSAGE(#211,4,$);
@@ -440,7 +440,7 @@ DATA;
 
 /* beam B-5 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 5 - mid-depth centre                                     */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #2400=IFCBEAMSTANDARDCASE('3QbcAsYsg7Hvx$4VHzijdF',$,'B-5','1/2IPE300','Beam',#2401,#2410,'B-5',$);
 #2401=IFCLOCALPLACEMENT(#100025,#2402);
 #2402=IFCAXIS2PLACEMENT3D(#2403,#2404,#2405);
@@ -455,7 +455,7 @@ DATA;
 #2430=IFCAXIS2PLACEMENT3D(#2431,$,$);
 #2431=IFCCARTESIANPOINT((0.,0.,0.));           /* defines cardinal point 5   */
 #2434=IFCDIRECTION((0.,0.,1.));
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #2440= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20Q41sj',$,$,$,(#2400),#2441);
 #2441= IFCMATERIALPROFILESETUSAGE(#211,5,$);
@@ -468,7 +468,7 @@ DATA;
 
 /* beam B-6 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 6 - mid-depth right                                      */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #2500=IFCBEAMSTANDARDCASE('3QbcAsYsg7Hvx$4VHzij3V',$,'B-6','1/2IPE300','Beam',#2501,#2510,'B-6',$);
 #2501=IFCLOCALPLACEMENT(#100025,#2502);
 #2502=IFCAXIS2PLACEMENT3D(#2503,#2504,#2505);
@@ -483,7 +483,7 @@ DATA;
 #2530=IFCAXIS2PLACEMENT3D(#2531,$,$);
 #2531=IFCCARTESIANPOINT((75.,0.,0.));       /* defines cardinal point 6      */
 #2534=IFCDIRECTION((0.,0.,1.));
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #2540= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QURsj',$,$,$,(#2500),#2541);
 #2541= IFCMATERIALPROFILESETUSAGE(#211,6,$);
@@ -496,7 +496,7 @@ DATA;
 
 /* beam B-7 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 7 - top left                                             */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #2600=IFCBEAMSTANDARDCASE('3QbcAsYsg7Hvx$4VHzij71',$,'B-7','1/2IPE300','Beam',#2601,#2610,'B-7',$);
 #2601=IFCLOCALPLACEMENT(#100025,#2602);
 #2602=IFCAXIS2PLACEMENT3D(#2603,#2604,#2605);
@@ -511,7 +511,7 @@ DATA;
 #2630=IFCAXIS2PLACEMENT3D(#2631,$,$);
 #2631=IFCCARTESIANPOINT((-75.0,-75.0,0.));     /* defines cardinal point 7 - */
 #2634=IFCDIRECTION((0.,0.,1.));
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #2640= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20Qw9sj',$,$,$,(#2600),#2641);
 #2641= IFCMATERIALPROFILESETUSAGE(#211,7,$);
@@ -524,7 +524,7 @@ DATA;
 
 /* beam B-8 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 3 - top center                                           */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #2700=IFCBEAMSTANDARDCASE('3QbcAsYsg7Hvx$4VHzijvb',$,'B-8','1/2IPE300','Beam',#2701,#2710,'B-8',$);
 #2701=IFCLOCALPLACEMENT(#100025,#2702);
 #2702=IFCAXIS2PLACEMENT3D(#2703,#2704,#2705);
@@ -539,7 +539,7 @@ DATA;
 #2730=IFCAXIS2PLACEMENT3D(#2731,$,$);
 #2731=IFCCARTESIANPOINT((0.,-75.0,0.));        /* defines cardinal point 8   */
 #2734=IFCDIRECTION((0.,0.,1.));
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #2740= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20QOcsj',$,$,$,(#2700),#2741);
 #2741= IFCMATERIALPROFILESETUSAGE(#211,8,$);
@@ -552,7 +552,7 @@ DATA;
 
 /* beam B-9 - beam axis along global x axis -------------------------------- */
 /* cardinal point = 9 - top right                                            */
-/* enhanced definitions intruduced in IFC2x4 - IfcBeamStandardCase --------- */
+/* enhanced definitions introduced in IFC2x4 - IfcBeamStandardCase --------- */
 #2800=IFCBEAMSTANDARDCASE('3QbcAsYsg7Hvx$4VHzijp1',$,'B-9','1/2IPE300','Beam',#2801,#2810,'B-9',$);
 #2801=IFCLOCALPLACEMENT(#100025,#2802);
 #2802=IFCAXIS2PLACEMENT3D(#2803,#2804,#2805);
@@ -567,7 +567,7 @@ DATA;
 #2830=IFCAXIS2PLACEMENT3D(#2831,$,$);
 #2831=IFCCARTESIANPOINT((75.0,-75.0,0.));      /* defines cardinal point 9 - */
 #2834=IFCDIRECTION((0.,0.,1.));
-/* enhanced definitions intruduced in IFC2x4 ------------------------------- */
+/* enhanced definitions introduced in IFC2x4 ------------------------------- */
 /* assignment of material and cardinal point to the beam occurrence          */
 #2840= IFCRELASSOCIATESMATERIAL('0juf4qyggSstrxA20Qw6sj',$,$,$,(#2800),#2841);
 #2841= IFCMATERIALPROFILESETUSAGE(#211,9,$);
