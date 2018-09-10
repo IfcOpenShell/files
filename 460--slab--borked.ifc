@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition[CoordinationView_V2.0, QuantityTakeOffAddOnView]'),'2;1');
-FILE_NAME('x.ifc','2018-06-11T12:30:04',$,('Structural Designer'),'IFC Database Version:Work','Tekla Structures 2016i Service Pack 5, IFC Export Version: 4.0.0.0 Jun 27 2017','');
+FILE_NAME('460--slab--borked.ifc','2018-06-11T12:30:04',$,('Structural Designer'),'IFC Database Version:Work','Tekla Structures 2016i Service Pack 5, IFC Export Version: 4.0.0.0 Jun 27 2017','');
 FILE_SCHEMA(('IFC2X3'));
 ENDSEC;
 
