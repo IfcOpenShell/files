@@ -20,7 +20,7 @@ DATA;
 #13 = IFCORGANIZATION($,$,$,$,$);
 #14 = IFCPOSTALADDRESS($,$,$,$,$,$,$,$,$,$);
 #15 = IFCBUILDINGSTOREY('3MRaE7EFn9gxkT4z8n21Fi', #8, 'Plan 03', $, '', #449, $, 'Plan 03', .ELEMENT., 10600.);
-#16 = IFCPROJECT($, #8, $, $, $, $, $, (#17), #454);
+#16 = IFCPROJECT('', #8, $, $, $, $, $, (#17), #454);
 #17 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Model', 3, 1.E-2, #18, #20);
 #18 = IFCAXIS2PLACEMENT3D(#19, $, $);
 #19 = IFCCARTESIANPOINT((0., 0., 0.));

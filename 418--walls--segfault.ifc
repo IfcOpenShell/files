@@ -20,7 +20,7 @@ DATA;
 #13 = IFCAPPLICATION(#14, '2018', 'Autodesk Revit 2018 (ENU)', 'Revit');
 #14 = IFCORGANIZATION($,$,$,$,$);
 #15 = IFCBUILDINGSTOREY('1$520L9ifEPRFDKDOoGR5Z', #8, 'x', $, 'x', #6277, $, 'Etasjeplan 05', .ELEMENT., 75100.);
-#16 = IFCPROJECT($, #8, $, $, $, $, $, (#17), #6296);
+#16 = IFCPROJECT('', #8, $, $, $, $, $, (#17), #6296);
 #17 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Model', 3, 1.E-2, #18, #20);
 #18 = IFCAXIS2PLACEMENT3D(#19, $, $);
 #19 = IFCCARTESIANPOINT((0., 0., 0.));

@@ -238,7 +238,7 @@ DATA;
 #231 = IFCBUILDING('1h_mT3zb10ugORKdPdyPTC', #8, $, $, '', #257, $, $, .ELEMENT., $, $, #232);
 #232 = IFCPOSTALADDRESS($,$,$,$,$,$,$,$,$,$);
 #233 = IFCBUILDINGSTOREY('1h_mT3zb10ugORKdQO1Agn', #8, 'Plan 7', $, '', #259, $, 'Plan 7', .ELEMENT., 27200.);
-#234 = IFCPROJECT($, #8, $, $, $, $, $, (#17), #265);
+#234 = IFCPROJECT('', #8, $, $, $, $, $, (#17), #265);
 #235 = IFCSITE('1h_mT3zb10ugORKdPdyPTF', #8, 'Default', $, '', #254, $, $, .ELEMENT., (59, 54, 57, 601318), (10, 44, 59, 999999), -1.06987272374681E-9, $, $);
 #236 = IFCPROPERTYSINGLEVALUE('Reference', $, IFCIDENTIFIER('200'), $);
 #237 = IFCPROPERTYSINGLEVALUE('IsExternal', $, IFCBOOLEAN(.F.), $);

@@ -284,7 +284,7 @@ DATA;
 #277 = IFCMATERIAL('Isolasjon Trykkfast');
 #278 = IFCMATERIAL('Air Space');
 #279 = IFCMATERIAL('');
-#280 = IFCPROJECT($, #8, $, $, $, $, $, (#25, #281), #344);
+#280 = IFCPROJECT('', #8, $, $, $, $, $, (#25, #281), #344);
 #281 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Plan', 3, 1.E-5, #282, #30);
 #282 = IFCAXIS2PLACEMENT3D(#27, #28, #29);
 #283 = IFCGEOMETRICREPRESENTATIONSUBCONTEXT('Annotation', 'Plan', *, *, *, *, #281, 1.E-2, .PLAN_VIEW., $);

@@ -20,7 +20,7 @@ DATA;
 #13 = IFCORGANIZATION($,$,$,$,$);
 #14 = IFCPOSTALADDRESS($,$,$,$,$,$,$,$,$,$);
 #15 = IFCBUILDINGSTOREY('x', #8, 'x', $, '', #197, $, 'x', .ELEMENT., 43875.);
-#16 = IFCPROJECT($, #17, $, $, $, $, $, (#23, #32), #209);
+#16 = IFCPROJECT('', #17, $, $, $, $, $, (#23, #32), #209);
 #17 = IFCOWNERHISTORY(#18, #21, $, .NOCHANGE., $, $, $, 1519033241);
 #18 = IFCPERSONANDORGANIZATION(#19, #20, $);
 #19 = IFCPERSON($,'',$,$,$,$,$,$);

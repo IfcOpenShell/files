@@ -119,7 +119,7 @@ DATA;
 #112 = IFCGRIDAXIS('D', #50, .T.);
 #113 = IFCGRIDAXIS('E', #53, .T.);
 #114 = IFCGRIDAXIS('F', #56, .T.);
-#115 = IFCPROJECT($, #8, $, $, $, $, $, (#18), #259);
+#115 = IFCPROJECT('', #8, $, $, $, $, $, (#18), #259);
 #116 = IFCREINFORCINGBAR('1o2vj4d196v95VjP$Y20DI', #8, 'ARMERING', $, '', #244, #117, 'ID720b9b44-9c12-46e4-915f-b59fe2080352', $, 14., 0., $, .NOTDEFINED., $);
 #117 = IFCPRODUCTDEFINITIONSHAPE($, $, (#118));
 #118 = IFCSHAPEREPRESENTATION(#23, 'Body', 'MappedRepresentation', (#119, #153, #176, #189));

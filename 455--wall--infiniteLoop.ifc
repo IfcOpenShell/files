@@ -20,7 +20,7 @@ DATA;
 #13 = IFCORGANIZATION($, 'Autodesk Revit 2019 (ENU)', $, $, $);
 #14 = IFCPOSTALADDRESS($, $, $, $, $, $, $, $, $, $);
 #15 = IFCBUILDINGSTOREY('2mG9Conbr54BjpA3a1dIa7', #8, 'ETG 1', $, '', #38133, $, 'ETG 1', .ELEMENT., 2785.);
-#16 = IFCPROJECT($, #8, $, $, $, $, $, (#17), #38145);
+#16 = IFCPROJECT('', #8, $, $, $, $, $, (#17), #38145);
 #17 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Model', 3, 1.E-2, #18, #20);
 #18 = IFCAXIS2PLACEMENT3D(#19, $, $);
 #19 = IFCCARTESIANPOINT((0., 0., 0.));

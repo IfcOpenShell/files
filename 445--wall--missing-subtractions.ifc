@@ -22,7 +22,7 @@ DATA;
 #15 = IFCBUILDINGSTOREY('2i4HM19cTD6hJ9$ILIr1g5', #8, 'Plan 3', $, '', #97, $, $, .ELEMENT., 0.);
 #16 = IFCBUILDINGSTOREY('2_uMeYxR51RO3Carr2Aqer', #8, 'Plan 1', $, '', #92, $, $, .ELEMENT., 0.);
 #17 = IFCBUILDINGSTOREY('0TxwbsLHvBXhX9HyORR$rE', #8, 'Tak', $, '', #90, $, $, .ELEMENT., 0.);
-#18 = IFCPROJECT($, #8, $, $, $, $, $, (#19), #101);
+#18 = IFCPROJECT('', #8, $, $, $, $, $, (#19), #101);
 #19 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Model', 3, 1.E-5, #20, $);
 #20 = IFCAXIS2PLACEMENT3D(#21, #22, #23);
 #21 = IFCCARTESIANPOINT((0., 0., 0.));

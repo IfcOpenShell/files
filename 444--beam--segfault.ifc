@@ -65,7 +65,7 @@ DATA;
 #58 = IFCOWNERHISTORY($, #59, .READWRITE., .ADDED., 0, $, $, 1535111046);
 #59 = IFCAPPLICATION(#60, '3.1', 'x', 'x.1');
 #60 = IFCORGANIZATION($,$,$,$,$);
-#61 = IFCPROJECT($, #62, $, $, $, $, $, (#20, #67), #7621);
+#61 = IFCPROJECT('', #62, $, $, $, $, $, (#20, #67), #7621);
 #62 = IFCOWNERHISTORY(#9, #63, .READWRITE., .MODIFIED., 0, #9, $, 1535111046);
 #63 = IFCAPPLICATION(#64, 'x', 'Tekla Structures', 'Multi material modeling');
 #64 = IFCORGANIZATION($,$,$,$,$);

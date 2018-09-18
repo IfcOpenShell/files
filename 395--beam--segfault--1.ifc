@@ -74,7 +74,7 @@ DATA;
 #67 = IFCMATERIAL('Batten');
 #68 = IFCMATERIALLAYER(#69, 9., $);
 #69 = IFCMATERIAL('GTS');
-#70 = IFCPROJECT($, #8, $, $, $, $, $, (#16, #71), #157);
+#70 = IFCPROJECT('', #8, $, $, $, $, $, (#16, #71), #157);
 #71 = IFCGEOMETRICREPRESENTATIONCONTEXT('Building Plan View', 'Plan', 2, 1.E-5, #72, $);
 #72 = IFCAXIS2PLACEMENT2D(#73, $);
 #73 = IFCCARTESIANPOINT((0., 0.));

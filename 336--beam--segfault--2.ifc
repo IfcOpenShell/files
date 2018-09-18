@@ -65,7 +65,7 @@ DATA;
 #58 = IFCMATERIAL('STEEL/S355J2');
 #59 = IFCBUILDING('3sJekW2Q90VgXyMD5_Usiy', #8, 'TI', $, '', #118, $, $, .ELEMENT., $, $, $);
 #60 = IFCBUILDINGSTOREY('0HPxJja0H65Q3pRVQBdIBC', #8, 'G', $, '', #120, $, $, .ELEMENT., 0.);
-#61 = IFCPROJECT($, #8, $, $, $, $, $, (#16), #126);
+#61 = IFCPROJECT('', #8, $, $, $, $, $, (#16), #126);
 #62 = IFCSITE('1dKXkc0VDEThj8TEUHmQcX', #8, 'Undefined', $, '', #116, $, $, .ELEMENT., $, $, 0., $, $);
 #63 = IFCBEAMTYPE('0EUXqlonv9t9tHmkf2NgHd', #8, 'PL12*270', $, $, $, $, $, $, .NOTDEFINED.);
 #64 = IFCRELDEFINESBYTYPE('3v1eMxIf131wnzkWmt5S70', #1, $, $, (#7), #63);

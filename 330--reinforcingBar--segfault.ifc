@@ -19,7 +19,7 @@ DATA;
 #12 = IFCAPPLICATION(#11, '20.1 Service Release 5', 'Tekla Structures', 'Multi material modeling');
 #13 = IFCPOSTALADDRESS($,$,$,$,$,$,$,$,$,$);
 #14 = IFCBUILDINGSTOREY('0QQyw1cEL37eqyuIS8370k', #8, 'Undefined', $, '', #2870, $, $, .ELEMENT., 0.);
-#15 = IFCPROJECT($, #8, $, $, $, $, $, (#16), #3075);
+#15 = IFCPROJECT('', #8, $, $, $, $, $, (#16), #3075);
 #16 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Model', 3, 1.E-5, #17, $);
 #17 = IFCAXIS2PLACEMENT3D(#18, #19, #20);
 #18 = IFCCARTESIANPOINT((0., 0., 0.));

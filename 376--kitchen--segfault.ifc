@@ -52319,7 +52319,7 @@ DATA;
 #52312 = IFCMATERIAL('Plate');
 #52313 = IFCMATERIAL('Rusted');
 #52314 = IFCBUILDINGSTOREY('0$yIZAFn53jeCuh7jFJLbH', #8, '01 ETASJE', $, '', #52464, $, '01 ETASJE', .ELEMENT., 100.000000000001);
-#52315 = IFCPROJECT($, #8, $, $, $, $, $, (#19), #52471);
+#52315 = IFCPROJECT('', #8, $, $, $, $, $, (#19), #52471);
 #52316 = IFCSITE('0$yIZAFn53jeCuh7kmigUK', #8, 'Default', $, '', #52456, $, $, .ELEMENT., (59, 54, 57, 599999), (10, 44, 59, 999999), 2500., $, $);
 #52317 = IFCBUILDINGELEMENTPROXYTYPE('3aE_kEssf6d9ObxdfKyPS$', #8, 'X', $, $, (#52318, #52323), $, '27364016', $, .NOTDEFINED.);
 #52318 = IFCPROPERTYSET('39pYGVhpf3j8d29Dj30p9E', #1, 'Identity Data(Type)', $, (#52319, #52320, #52321, #52322));

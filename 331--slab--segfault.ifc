@@ -19,7 +19,7 @@ DATA;
 #12 = IFCAPPLICATION(#13, '20.0.0', 'ARCHICAD-64', 'IFC2x3 add-on version: 5025 CHE FULL');
 #13 = IFCORGANIZATION($,$,$,$,$);
 #14 = IFCBUILDINGSTOREY('3svIgCMrX8j8Gpr2WkHfaW', #8, 'X', $, '', #268, $, $, .ELEMENT., -4.1);
-#15 = IFCPROJECT($, #8, $, $, $, $, $, (#16), #274);
+#15 = IFCPROJECT('', #8, $, $, $, $, $, (#16), #274);
 #16 = IFCGEOMETRICREPRESENTATIONCONTEXT($, 'Model', 3, 1.E-5, #17, #21);
 #17 = IFCAXIS2PLACEMENT3D(#18, #19, #20);
 #18 = IFCCARTESIANPOINT((0., 0., 0.));
