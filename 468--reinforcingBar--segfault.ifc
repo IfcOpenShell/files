@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition[CoordinationView_V2.0, QuantityTakeOffAddOnView]'),'2;1');
-FILE_NAME('468--reinforcingBar--abort.ifc','2016-08-26T15:13:31',(''),('Structural Designer'),'IFC Database Version:Work','Tekla Structures 21.0 Service Release 4, IFC Export Version: 4.0.0.0 Sep 30 2015','');
+FILE_NAME('468--reinforcingBar--segfault.ifc','2016-08-26T15:13:31',(''),('Structural Designer'),'IFC Database Version:Work','Tekla Structures 21.0 Service Release 4, IFC Export Version: 4.0.0.0 Sep 30 2015','');
 FILE_SCHEMA(('IFC2X3'));
 ENDSEC;
 
