@@ -6,7 +6,7 @@ FILE_SCHEMA(('IFC2X3'));
 ENDSEC;
 
 DATA;
-#1= IFCPERSON($,$,$,$,$,$,$,$);
+#1= IFCPERSON($,'',$,$,$,$,$,$);
 #2= IFCORGANIZATION($,'Trimble Solutions Corporation',$,$,$);
 #3= IFCPERSONANDORGANIZATION(#1,#2,$);
 #4= IFCAPPLICATION(#2,'2016i Service Pack 5','Tekla Structures','Multi material modeling');
