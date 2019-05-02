@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (('ViewDefinition[CoordinationView_V2.0]'), '2;1');
-FILE_NAME ('579--wall--borked.ifc (Edited by simplebim 7.2)', '2019-04-30T10:24:17', (''), ('Structural Designer'), 'IFC Database Version:Work', 'Tekla Structures 21.0 Service Release 5, IFC Export Version: 4.0.0.0 Dec 14 2015', $);
+FILE_NAME ('580--wall--borked.ifc (Edited by simplebim 7.2)', '2019-04-30T10:24:17', (''), ('Structural Designer'), 'IFC Database Version:Work', 'Tekla Structures 21.0 Service Release 5, IFC Export Version: 4.0.0.0 Dec 14 2015', $);
 FILE_SCHEMA (('IFC2X3'));
 ENDSEC;
 DATA;
