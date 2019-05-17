@@ -10,7 +10,7 @@ FILE_NAME(
 /* originating_system */ 'ssiIFC - Grasshopper Plug-in by Geometry Gym Pty Ltd',
 /* authorization */ 'None');
 
-FILE_SCHEMA (('IFC4RC4'));
+FILE_SCHEMA (('IFC4'));
 ENDSEC;
 
 DATA;
