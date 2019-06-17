@@ -12,7 +12,7 @@ DATA;
 #5 = IFCORGANIZATION($,'',$,$,$);
 #6 = IFCORGANIZATION($,'',$,$,$);
 #7 = IFCBUILDING('00tMo7QcxqWdIGvc4sMN2A', #8, 'x', $, '', #1519, $, $, .ELEMENT., $, $, $);
-#8 = IFCOWNERHISTORY(#9, #12, $, .ADDED., $, $, $, 'x');
+#8 = IFCOWNERHISTORY(#9, #12, $, .ADDED., $, $, $, 1431089981);
 #9 = IFCPERSONANDORGANIZATION(#10, #11, $);
 #10 = IFCPERSON($,'',$,$,$,$,$,$);
 #11 = IFCORGANIZATION($,'',$,$,$);
