@@ -63,7 +63,7 @@ DATA;
 #56 = IFCRELASSOCIATESMATERIAL('1P08csYgX4RQnwJahvnVoO', #8, $, $, (#7), #57);
 #57 = IFCMATERIAL('TIMBER');
 #58 = IFCBUILDING('0TlbHuSij1Nv$h6EQ68r$S', #8, 'x', $, '', #141, $, $, .ELEMENT., $, $, $);
-#59 = IFCBUILDINGSTOREY('1QZlgMtGn9a8BmMi6SgYhU', #8, 'walls', $, '', #145, $, $, '', 0.);
+#59 = IFCBUILDINGSTOREY('1QZlgMtGn9a8BmMi6SgYhU', #8, 'walls', $, '', #145, $, $, .ELEMENT., 0.);
 #60 = IFCELEMENTASSEMBLY('2r4B92e7f73QtBh15Zmo5L', #8, 'YV304', $, '', #147, $, $, $, .ACCESSORY_ASSEMBLY.);
 #61 = IFCRELASSOCIATESMATERIAL('2GjdnTBWX2lx3fZuboRaVD', #8, $, $, (#60), #62);
 #62 = IFCMATERIALLAYERSETUSAGE(#63, .AXIS2., .NEGATIVE., 0.);

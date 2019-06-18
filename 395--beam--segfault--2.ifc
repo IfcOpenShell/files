@@ -63,7 +63,7 @@ DATA;
 #56 = IFCPOLYLOOP((#28, #32, #38, #37));
 #57 = IFCCARTESIANTRANSFORMATIONOPERATOR3D($, $, #18, $, $);
 #58 = IFCBUILDING('0TlbHuSij1Nv$h6EQ68r$S', #8, '02 x', $, '', #111, $, $, .ELEMENT., $, $, $);
-#59 = IFCBUILDINGSTOREY('2DXtr6hhjBExvabubczAza', #8, 'x', $, '', #115, $, $, '', 0.);
+#59 = IFCBUILDINGSTOREY('2DXtr6hhjBExvabubczAza', #8, 'x', $, '', #115, $, $, .ELEMENT., 0.);
 #60 = IFCPROJECT('', #8, $, $, $, $, $, (#16, #61), #122);
 #61 = IFCGEOMETRICREPRESENTATIONCONTEXT('Building Plan View', 'Plan', 2, 1.E-5, #62, $);
 #62 = IFCAXIS2PLACEMENT2D(#63, $);
