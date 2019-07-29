@@ -6,7 +6,7 @@ File name conventions
 -------------
 
 ### `123.ifc`
-Files that relate to an [IfcOpenShell issue](https://github.com/IfcOpenShell/IfcOpenShell/issues) are prefixed with the corresponding issue number.
+Files that relate to an [issue](https://github.com/IfcOpenShell/IfcOpenShell/issues) are prefixed with the corresponding issue number.
 
 ### `--augmented.ifc`
 Files that are augmented with quantity data from IfcOpenShell are suffixed with `--augmented`. 
