@@ -66,7 +66,7 @@ DATA;
 #59=IFCRELASSOCIATESMATERIAL('1iKg44o4DEl82FSJoY5kkx',#8,$,$,(#7),#60);
 #60=IFCMATERIAL('Lath');
 #61=IFCBUILDING('0TlbHuSij1Nv$h6EQ68r$S',#8,'02 FirstFloor',$,'',#126,$,$,.ELEMENT.,$,$,$);
-#62=IFCBUILDINGSTOREY('28SndBwkvEsAL6cVl$DHK_',#8,'014 Floor Elements',$,.ELEMENT.,#130,$,$,'',0.);
+#62=IFCBUILDINGSTOREY('28SndBwkvEsAL6cVl$DHK_',#8,'014 Floor Elements',$,'',#130,$,$,.ELEMENT.,0.);
 #63=IFCELEMENTASSEMBLY('1UdlbvXtz7hRfFoxiKNFfh',#8,'x','@(Description)','',#132,$,$,$,.ACCESSORY_ASSEMBLY.);
 #64=IFCPROJECT('',#8,$,$,$,$,$,(#16,#65),#141);
 #65=IFCGEOMETRICREPRESENTATIONCONTEXT('Building Plan View','Plan',2,1.E-5,#66,$);
